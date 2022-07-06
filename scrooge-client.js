@@ -1,6 +1,7 @@
 "use strict";
 
 const Client = require("spartan-gold/client");
+const NEAR_MISS_ZEROES_REQ = 12;
 
 module.exports = class ScroogeClient extends Client {
   receiveBlock(block) {
